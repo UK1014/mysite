@@ -1,0 +1,55 @@
+/*media query*/
+@media (min-width: 1001px ) {
+  /* h1のcolorをblueに指定してください */
+  h1{
+    color:red;
+  }   
+    .main-wrapper{
+        float: right;
+        width: 100%;
+        margin-right: -300px;
+        padding-right: 300px;
+    }
+}
+/* ブレイクポイントをmax-width: 1000pxに指定してください */
+@media (max-width: 1000px ) {
+  /* h1のcolorをblueに指定してください */
+    h1{
+    color:red;
+    font-size: 32px;
+  }
+  h2{
+    font-size:20px;
+  }   
+    .side-wrapper{
+        display: none;
+    }
+    
+    .main-wrapper{
+        width: 100%;
+    }
+}
+
+/* ブレイクポイントをmax-width: 670pxに指定してください */
+@media (max-width: 670px) {
+  /* h1のcolorをgreenに指定してください */
+  h1{
+    color:green;
+    font-size: 24px;
+  }
+  h2{
+    font-size:20px;
+  }
+  p{
+    font-size:14px;
+    }
+    
+    .side-wrapper{
+        display: none;
+    }
+    
+    .main-wrapper{
+        width: 100%;
+    }
+  
+}
